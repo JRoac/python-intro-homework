@@ -5,8 +5,10 @@ if (day == "monday" or day == "tuesday" or day == "wednesday" or day == "thursda
     print("Have a good day at work!")
 elif (day == "monday" or day == "tuesday" or day == "wednesday" or day == "thursday" or day == "friday") and time == "afternoon":
     print("Off work, it's a great time to study!")
-elif (day == "monday" or day == "tuesday" or day == "wednesday" or day == "thursday" or day == "friday") and time == "evening":
+elif (day == "monday" or day == "tuesday" or day == "wednesday" or day == "thursday") and time == "evening":
     print("It's time to get ready for bed!")
+elif (day == "friday") and time == "evening":
+    print("Party time!")    
 elif (day == "saturday" or day == "sunday") and time == "morning":
     print("Let's start studying!")
 elif day == "saturday" or day == "sunday":
