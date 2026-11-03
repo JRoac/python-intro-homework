@@ -1,11 +1,12 @@
 student = {
     "name": "Issac",
     "grade": "11th",
-    "subjects": "math, history, science"
+    "subjects": ["math", "history", "science"]
 }
 
-print(list(student.items()))
+for key, value in student.items():
+    print(key, value)
 
 student["graduated"] = False
 
-print(list(student.items()))
+print(student)
