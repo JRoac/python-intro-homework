@@ -1,9 +1,12 @@
-languages_1 = {"php", "c", "c++", "python", "r"}
-languages_2 = {"c++", "javascript", "sql", "python"}
+languages_1 = ["php", "c", "c++", "python", "r"]
+languages_2 = ["c++", "javascript", "sql", "python"]
 
-print(languages_1.union(languages_2))
-print(languages_1.intersection(languages_2))
-print(languages_1.difference(languages_2))
+set_1 = set(languages_1)
+set_2 = set(languages_2)
+
+print(set_1.union(set_2))
+print(set_1.intersection(set_2))
+print(set_1.difference(set_2))
 
 
 
